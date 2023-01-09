@@ -8,30 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+             I am a second year Software Engineering student at Ontario Tech University. My past experiences have
+                    allowed me strengthen my soft skills like problem-solving, communication, team-work, multi-tasking
+                    etc.
+                    I have plenty of experience working with technology. Some examples are Python, C,
+                    C++, Java, HTML, CSS, MySQL, PHP, JavaScript, SolidWorks, Multisim, Pygame, React, Node js, Microsoft Office Applications.
+                    I am extremely passionate about technology. I cannot wait to solve more and more realistic problems
+                    and contribute to the tech industry. Apart from coding, I also enjoy
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing sports like soccer, volleyball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Reading
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Dancing
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Socializing
+            </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          
+          <footer className="blockquote-footer">Saumya</footer>
         </blockquote>
       </Card.Body>
     </Card>
