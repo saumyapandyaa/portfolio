@@ -79,18 +79,15 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
-#responsive-navbar-nav{
-  background-color:  rgb(45, 21, 79);
-  word-spacing: 50%;
-  box-shadow:10px 0px 10px rgba(197, 130, 255, 0.252) !important;
-  backdrop-filter: blur(15px) !important;
+.top{
+  background-color:  rgb(45, 21, 79) !important;
 }
 .sticky {  
   transition: all 0.3s !important;
   word-spacing: 50%;
   box-shadow: 0px 10px 10px 0px rgba(197, 130, 255, 0.252) !important;
   backdrop-filter: blur(15px) !important;
-  background-color:  rgb(45, 21, 79);
+  background-color:  rgb(45, 21, 79) !important;
   /* opacity: 0.75; */
 }
 
