@@ -72,15 +72,22 @@ button:focus {
   border-radius: 15px;
 }
 
+
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+#responsive-navbar-nav{
+  background-color:  rgb(45, 21, 79);
+  word-spacing: 50%;
+  box-shadow:10px 0px 10px rgba(197, 130, 255, 0.252) !important;
+  backdrop-filter: blur(15px) !important;
+}
 .sticky {  
   transition: all 0.3s !important;
   word-spacing: 50%;
   box-shadow: 0px 10px 10px 0px rgba(197, 130, 255, 0.252) !important;
   backdrop-filter: blur(15px) !important;
-  background-color:  #2d154f;
+  background-color:  rgb(45, 21, 79);
   /* opacity: 0.75; */
 }
 
@@ -96,7 +103,10 @@ button:focus {
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
+  
 }
+
+
 
 .navbar-toggler :hover{
   box-shadow: 0 0 1.5em rgb(203, 121, 255);
@@ -116,9 +126,8 @@ button:focus {
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0 !important;
- 
-  
 }
+
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
@@ -297,10 +306,12 @@ button:focus {
 }
 
 .main-name {
+  
   color: #c941ffdf;
 }
 
 .Typewriter__wrapper {
+  margin-top: -12px;
   font-size: 2.2em !important;
   color: #cea9dc !important;
   font-weight: 600 !important;
