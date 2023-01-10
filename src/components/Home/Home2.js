@@ -19,11 +19,18 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              My name is Saumya Pandya. I can be described as an adaptive,
+            <p className="home-about-body" >
+              My name is Saumya Pandya. I am a second year Software Engineering student at Ontario Tech University. I can be described as an adaptive,
                                 ambitious, quick-learner, passionate individual with a strong grasp of my <b className="purple"> extraordinary
                                 soft
                                 and technical skills.</b>
+            </p>
+            <p style={{textAlign: "left",fontSize: "1.2em"}} className="home-about-body">
+            <b className="purple"> Awards: </b>
+              <ul>
+                <li>President's List Honours (2022-2023)</li>
+                <li>Dean's List Honours (2021-2022)</li>
+              </ul>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -17,6 +17,9 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+  word-spacing: 50% !important;
+  letter-spacing: 55% !important;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button:focus {
@@ -96,6 +99,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  letter-spacing: 55% !important;
 
 }
 
@@ -276,6 +280,7 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  letter-spacing: 55% !important;
 }
 
 .home-section {
@@ -286,13 +291,16 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  letter-spacing: 55% !important;
   height:100vh;
 }
+
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: rgb(230, 198, 232);
   text-align: left;
+  letter-spacing: 55% !important;
 }
 
 .heading {
@@ -353,7 +361,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  word-spacing: 50%;
+  word-spacing: 50% !important;
+  letter-spacing: 55% !important;
 }
 
 .home-about-description {
@@ -361,14 +370,17 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
-  word-spacing: 50%;
+  word-spacing: 50% !important;
+  letter-spacing: 55% !important;
 }
+
 
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
-  word-spacing: 50%;
+  word-spacing: 50% !important;
+  letter-spacing: 55% !important;
 }
 
 .home-about-social {
