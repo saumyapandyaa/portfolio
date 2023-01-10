@@ -13,11 +13,12 @@ function ProjectCards(props) {
     <Card className="project-card-view" style={{Align: "center" }} >
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title style={{wordSpacing:"55%", fontFamily:"monospace"}}><u><strong>{props.title}</strong></u></Card.Title>
         <Card.Text style={{ textAlign: "left" }}>
           {props.description.map(element => {
            return (
-              <p>{element}</p>
+            
+              <p style={{wordSpacing: "55%",fontFamily:"sans-serif"}}>{element}</p>
             )
           })}
         </Card.Text>
