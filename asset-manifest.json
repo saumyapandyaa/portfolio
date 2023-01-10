@@ -1,32 +1,35 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8be05ba9.css",
-    "main.js": "/portfolio/static/js/main.785bcf4c.js",
+    "main.css": "/portfolio/static/css/main.d1328f0a.css",
+    "main.js": "/portfolio/static/js/main.a199f1d4.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/mentor.jfif": "/portfolio/static/media/mentor.06ec045188d56a473f94.jfif",
+    "static/media/yoda.jpg": "/portfolio/static/media/yoda.4de61dee7de6f1c3a509.jpg",
     "static/media/edge.png": "/portfolio/static/media/edge.94ca68aff9b41be2f54f.png",
     "static/media/tree.png": "/portfolio/static/media/tree.dbe105d287f2e578271c.png",
-    "static/media/social.png": "/portfolio/static/media/social.f4febbcaa5e690afe42e.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.4e7a9e3fb9628cfee0ad.pdf",
+    "static/media/calc.png": "/portfolio/static/media/calc.5de9d426b6c6bc6fb5ca.png",
     "static/media/about.png": "/portfolio/static/media/about.294b81725a77d2001a92.png",
     "static/media/sports.jfif": "/portfolio/static/media/sports.3e0fbb5161ba08f1e64b.jfif",
-    "static/media/teach.jfif": "/portfolio/static/media/teach.f6a9e132e7708d8f5873.jfif",
+    "static/media/social.jpg": "/portfolio/static/media/social.e5cbf600f09a534bf0ee.jpg",
     "static/media/home.jpeg": "/portfolio/static/media/home.2cc0934cc93b11248a11.jpeg",
+    "static/media/mentor.png": "/portfolio/static/media/mentor.8259610987f3f94f8360.png",
     "static/media/logo.png": "/portfolio/static/media/logo.0ab9b26d97dcbc44930a.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/teach.svg": "/portfolio/static/media/teach.6c4c4a1eddc18680c823fd3a3d2cc987.svg",
     "static/media/homeLogo.svg": "/portfolio/static/media/homeLogo.c298e8a7ff6d0efc34cdbb3bbb2db494.svg",
-    "static/media/peer.jfif": "/portfolio/static/media/peer.dca7b2c1c922622a2ed2.jfif",
-    "static/media/turtle.jfif": "/portfolio/static/media/turtle.0d70e1e2eadbac3c1cf0.jfif",
+    "static/media/peer.svg": "/portfolio/static/media/peer.3dae7cae28acf9c2c197edab09a84d8a.svg",
+    "static/media/teach2.svg": "/portfolio/static/media/teach2.2913fc49ab45b5cf243e8d1c57bec4f1.svg",
+    "static/media/tutor.svg": "/portfolio/static/media/tutor.e141143904d2ecdce22abe4b7e374e87.svg",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.8be05ba9.css.map": "/portfolio/static/css/main.8be05ba9.css.map",
-    "main.785bcf4c.js.map": "/portfolio/static/js/main.785bcf4c.js.map",
+    "main.d1328f0a.css.map": "/portfolio/static/css/main.d1328f0a.css.map",
+    "main.a199f1d4.js.map": "/portfolio/static/js/main.a199f1d4.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8be05ba9.css",
-    "static/js/main.785bcf4c.js"
+    "static/css/main.d1328f0a.css",
+    "static/js/main.a199f1d4.js"
   ]
 }
