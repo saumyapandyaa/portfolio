@@ -20,30 +20,39 @@ function Techstack() {
       
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs size="55px"/>
+        <p style={{fontSize:"12px"}}>( Node js )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact size="55px"/>
+        <p style={{fontSize:"12px"}}>( React )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython size="55px"/>
+        <p style={{fontSize:"12px"}}>( Python )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava size="55px"/>
+        <p style={{fontSize:"12px"}}>( Java )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus size="55px"/>
+        <p style={{fontSize:"12px"}}>( C++ )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 size="50px"/>
+        <p style={{fontSize:"12px"}}>( JavaScript )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp size="55px" />
+        <p style={{fontSize:"12px"}}>( PHP )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql size="55px"/>
+        <p style={{fontSize:"12px"}}>( MySQL )</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <BsMicrosoft size="50px"/>
+        <p style={{fontSize:"12px"}}>( Microsoft )</p>
       </Col>
     </Row>
   );

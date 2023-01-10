@@ -34,8 +34,6 @@ function AboutCard() {
             </li>
           </ul>
 
-          
-          <footer className="blockquote-footer">Saumya</footer>
         </blockquote>
       </Card.Body>
     </Card>
