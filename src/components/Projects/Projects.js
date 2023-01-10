@@ -19,7 +19,7 @@ function Projects() {
   const temp1=[<b>Tools: C, Graphs Data-Structure.</b>,"Built the back end of a complex social media.","Used Directed and Non-Directed graph algorithms to create the backend","Added features where a user could add friends, remove friends, check mutual friends, follow brands/celebrities etc."];
   const temp2=[<b>Tools: HTML, CSS, Javascript, PHP, MySQL.</b>, "Lets users register/login to the web app and sign up for events.", "It  also gives users an option to view all their active registrations along with their details."];
   const temp3=[<b>Tools: C, Linked List Data-Structure.</b>,"Coded Turtle(language) on C so that the “turtle” would follow the instructions given, pixel by pixel, to create images using linked lists.","Created pictures like baby Yoda and acquired strong problem-solving, debugging, and analytical skills. ","The turtle could take single as well as multiple instructions at once."]
-  const temp4=[<b>Tools: C, Trees Data-Structure.</b>,"Convert pixelated pictures into clear ones.","Took pixelated image as input.","Used tree-algorithms like insertion, sorting- preorder traversal, postorder traversal, inorder traversal and searching to finally output a clear image"]
+  const temp4=[<b>Tools: C, Trees Data-Structure.</b>,"Convert pixelated pictures into clear ones.","Took pixelated image as input.","Used tree-algorithms like insertion, sorting- preorder traversal, postorder traversal, inorder traversal and searching to finally output a clear image"];
   const temp5=[<b>Tools: C.</b>,"Find the regions of an image that have a sharp change in colour or intensity."]
   const temp6=[<b>Tools: Python, C++, Java, Game-Maker, WeDo robotics, Scratch, Lego robotics.</b>," Taught and/or had a class of students make games/projects using languages like Java, Python, C++ and/or softwares like Gamemaker, Android Appwizard, Lego robotics."," Built Robotic Legos and made students make their own to add excitement to their learning process."," Planned and organized coursework for students of different levels and communicated with students and parents. Ensured students learnt what was being taught to them showcasing my strong leadership skills and enthusiastic nature."]
   const temp7=["Helped students of all types and backgrounds build a solid resume, cover-letter and enhanced their LinkedIn profiles to make their job applications stronger using incredible communication, leadership, and independent thinking skills."," Created front end of the user-interface of a website that scans a resume and the key requirements of a particular job and matches them.","Organized workshops and fairs, gave presentations in front of a large variety of people and acquired solid leadership, teamwork and organization skills."]
@@ -87,7 +87,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Quad"
-              description={temp5}
+              description={temp4}
               
             
             />
