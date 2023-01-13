@@ -10,6 +10,7 @@ function Type() {
           "Extraordinary problem solver",
           "Web designer",
           "Strong communicator",
+          "Full Stack Developer",
         ],
         autoStart: true,
         loop: true,

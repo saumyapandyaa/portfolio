@@ -13,7 +13,7 @@ import teach from "../../Assets/Projects/teach.svg";
 import teach2 from "../../Assets/Projects/teach2.svg";
 import calc from "../../Assets/Projects/calc.png";
 import bitsOfCode from "../../Assets/Projects/sports.jfif";
-
+import port from "../../Assets/Projects/portfolio.png";
 function Projects() {
   const temp=["pt1","pt2"]
   const temp1=[<b>Tools: C, Graphs Data-Structure.</b>,"Built the back end of a complex social media.","Used Directed and Non-Directed graph algorithms to create the backend","Added features where a user could add friends, remove friends, check mutual friends, follow brands/celebrities etc."];
@@ -27,6 +27,7 @@ function Projects() {
   const temp9=["Achieved mentorship standing for ability to motivate and facilitate community-based youth programs which helped me develop extraordinary leadership skills. ","Promoted (mental)health awareness and encouraged youth to be caring, respectful, honest, active, fair and and make others feel inclusive while also providing safe space."," Organized campaigns that taught how to relieve stress and live a stress-free life.","Provided creative ideas, suggestions, and opinions to the youth advisor on recreational activities and improvement of program during mentor meetings using strong interpersonal and communication skills."]
   const temp10=[ "Tutored a first year university student online and helped them go from a 60% to 90% in computer science","Coordinated with them and assisted them with problem solving whenever needed."]
   const temp11=[<b>Tools: Javascript, HTML, CSS</b>, "Built an online scientific calculator"]
+  const temp12=[<b>Tools: React, Node js, Javascript, CSS, HTML, Bash</b>,"Built a web portfolio using the tools mentioned above","Acquired knowledge about scripting in bash and publishing a website"]
   return (
     
     <Container fluid className="project-section">
@@ -40,6 +41,18 @@ function Projects() {
           Projects
         </h3>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={port}
+              isBlog={false}
+              title="Portfolio Website"
+              description={temp12}
+
+              // description=
+              
+             
+            />
+          </Col>
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={s}
