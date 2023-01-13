@@ -23,7 +23,7 @@ function Projects() {
   const temp5=[<b>Tools: C.</b>,"Find the regions of an image that have a sharp change in colour or intensity."]
   const temp6=[<b>Tools: Python, C++, Java, Game-Maker, WeDo robotics, Scratch, Lego robotics.</b>," Taught and/or had a class of students make games/projects using languages like Java, Python, C++ and/or softwares like Gamemaker, Android Appwizard, Lego robotics."," Built Robotic Legos and made students make their own to add excitement to their learning process."," Planned and organized coursework for students of different levels and communicated with students and parents. Ensured students learnt what was being taught to them showcasing my strong leadership skills and enthusiastic nature."]
   const temp7=["Helped students of all types and backgrounds build a solid resume, cover-letter and enhanced their LinkedIn profiles to make their job applications stronger using incredible communication, leadership, and independent thinking skills."," Created front end of the user-interface of a website that scans a resume and the key requirements of a particular job and matches them.","Organized workshops and fairs, gave presentations in front of a large variety of people and acquired solid leadership, teamwork and organization skills."]
-  const temp8=[<b>Tools: Python, C, Roblox, Minecraft, Lua, Scratch, PyCharm, Pygame, WeDo robotics.</b>,"Connected and communicated with youngsters and helped them code different levels of games on different coding platforms like Minecraft, Roblox, PyCharm, Pygame and Scratch and personally gained a greater knowledge about those platforms."," Built mini robots in in-person camps which students used to compete among themselves.","Taught about 15-20 young kids (per class) programming languages like Python and Lua."]
+  const temp8=[<b>Tools: Python, C, Roblox, Minecraft, Lua, Scratch, PyCharm, Pygame, WeDo robotics.</b>,"Connected and communicated with youngsters and helped them code different levels of games on different coding platforms like Minecraft, Roblox, PyCharm, Pygame and Scratch and personally gained a greater knowledge about those platforms."," Built mini robots in in-person camps which students used to compete among themselves.","Taught about 13.5-20 young kids (per class) programming languages like Python and Lua."]
   const temp9=["Achieved mentorship standing for ability to motivate and facilitate community-based youth programs which helped me develop extraordinary leadership skills. ","Promoted (mental)health awareness and encouraged youth to be caring, respectful, honest, active, fair and and make others feel inclusive while also providing safe space."," Organized campaigns that taught how to relieve stress and live a stress-free life.","Provided creative ideas, suggestions, and opinions to the youth advisor on recreational activities and improvement of program during mentor meetings using strong interpersonal and communication skills."]
   const temp10=[ "Tutored a first year university student online and helped them go from a 60% to 90% in computer science","Coordinated with them and assisted them with problem solving whenever needed."]
   const temp11=[<b>Tools: Javascript, HTML, CSS</b>, "Built an online scientific calculator"]
@@ -40,8 +40,8 @@ function Projects() {
         <h3 style={{ color: "white" }}>
           Projects
         </h3>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={5} className="project-card">
+        <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={port}
               isBlog={false}
@@ -53,7 +53,7 @@ function Projects() {
              
             />
           </Col>
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={s}
               isBlog={false}
@@ -62,7 +62,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -75,7 +75,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -84,7 +84,7 @@ function Projects() {
               description={temp3}
             />
           </Col>
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calc}
               isBlog={false}
@@ -95,7 +95,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -105,7 +105,7 @@ function Projects() {
             
             />
           </Col>
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={edge}
               isBlog={false}
@@ -120,8 +120,8 @@ function Projects() {
         <h3 style={{ color: "white" }}>
           Work Experience
         </h3>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col  md={5} className="project-card">
+        <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
+        <Col  md={4} className="project-card">
             <ProjectCard
               imgPath={teach}
               isBlog={false}
@@ -132,7 +132,7 @@ function Projects() {
               //"
             />
           </Col>
-          <Col  md={5} className="project-card">
+          <Col  md={4} className="project-card">
             <ProjectCard
               imgPath={peer}
               isBlog={false}
@@ -144,7 +144,7 @@ function Projects() {
               // "
             />
           </Col>
-          <Col  md={5}  className="project-card">
+          <Col  md={4}  className="project-card">
             <ProjectCard
               imgPath={teach2}
               isBlog={false}
@@ -162,7 +162,7 @@ function Projects() {
           Volunteering Experience
         </h3>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={5}  className="project-card">
+        <Col md={4}  className="project-card">
             <ProjectCard
               imgPath={tutor}
               isBlog={false}
@@ -175,7 +175,7 @@ function Projects() {
               // "
             />
           </Col>
-        <Col md={5}  className="project-card">
+        <Col md={4}  className="project-card">
             <ProjectCard
               imgPath={mentor}
               isBlog={false}

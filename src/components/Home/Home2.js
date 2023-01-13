@@ -29,7 +29,7 @@ function Home2() {
                                   <li><b className="purple">Languages: </b>
 C, C++, Python, PHP, HTML, CSS, Java Lua, MySQL, JavaScript, VHDL and scripting in Bash </li>
 <li><b className="purple">Tools: </b>VS Code,
-GitHub, Powershell, React.js, Node.js, Capstone, Pygame, 
+GitHub, Powershell, React.js, Node.js, Capstone, Pygame, Latex, 
 Solidworks, Maple, Matplotlib, Microsoft Office(Word, Excel, Outlook, Power Point),  Xilix ISE, Labview</li>
                                 <li><b className="purple">Some concepts:</b>Object Oriented Programming, Complexity, Testing/Debugging, Recursion, Stacks, Queues(and Heap), Linked Lists, Trees, Hashing, Graphs</li><li><b className="purple">Relevant Coursework:</b> Web programming, Object Oriented Programming, Software Project 
 Management, Digital Systems, Data Structures
