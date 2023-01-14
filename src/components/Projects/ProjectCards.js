@@ -11,7 +11,7 @@ function ProjectCards(props) {
   }, [])
   return (
     <Card className="project-card-view" style={{Align: "center" }} >
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img  className="crd-img" variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title style={{wordSpacing:"55%", fontFamily:"monospace"}}><u><strong>{props.title}</strong></u></Card.Title>
         <Card.Text style={{ textAlign: "left" }}>

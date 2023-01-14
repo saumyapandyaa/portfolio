@@ -1,10 +1,13 @@
 import React from "react";
-function contact() {
+function Contact() {
     return (
-        <div class="container">
+        <section id="contact" class="section scrollspy full-height">
+                    <h3 class="page-title white-text teal">Contact</h3>
+                    <div class="container">
                         <p>
-                            <a aria-label="Call Saumya" data-position="top" data-tooltip="Call Saumya"><i
-                                    class="fa fa-phone"></i><a aria-label="Call Saumya">+16476754305</a></a>
+                            <a aria-label="Call Saumya" data-position="top" data-tooltip="Call Saumya"
+                                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                                    class="fa fa-phone"></i><a aria-label="Call Saumya">+1 647-675-4305</a></a>
                         </p>
                         <p>
                             <a aria-label="Email Saumya" href="mailto:saumyapandya2601@gmail.com" target="_blank"
@@ -32,7 +35,8 @@ function contact() {
                                     target="_blank">https://www.linkedin.com/in/saumya-pandya-58435318b/</a></a>
                         </p>
                     </div>
+                </section>
     );
 }
 
-export default contact;
+export default Contact;
