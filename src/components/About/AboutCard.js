@@ -13,7 +13,7 @@ function AboutCard() {
                     C++, Java, CSS, MySQL, PHP, JavaScript, Node.js, React.js, Microsoft Office Applications, Bash, Powershell.</b>
                     I am extremely passionate about technology. I cannot wait to solve more and more realistic problems
                     and contribute to the tech industry. Apart from coding, I also enjoy
-          </p>
+         
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing sports like soccer, volleyball
@@ -30,11 +30,11 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Socializing
             </li>
-          </ul>
-
-        </blockquote>
-      </Card.Body>
-    </Card>
+          </ul></p><p style={{textAlign:"left",fontSize:"21.5px"}}>I am  currently in search of a position that combines my software engineering skills with a challenge that offers  professional development, educational opportunities, and personal growth.</p></blockquote>
+          </Card.Body>
+    
+</Card>  
+     
   );
 }
 

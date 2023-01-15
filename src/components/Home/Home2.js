@@ -19,28 +19,22 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body" >
+            <p style={{textAlign: "left",fontSize: "1.2em"}} className="home-about-body" >
               My name is Saumya Pandya. I am a second year Software Engineering student at Ontario Tech University. I can be described as an adaptive,
                                 ambitious, quick-learner, passionate individual with a strong grasp of my <b className="purple"> extraordinary
                                 soft
-                                and technical skills.</b>
+                                and technical skills.</b><br></br><br></br>
                                 <ul>
                                   <b className="purple" ><u>Technical Skills:</u></b>
-                                  <li><b className="purple">Languages: </b>
-C, C++, Python, PHP, HTML, CSS, Java Lua, MySQL, JavaScript, VHDL and scripting in Bash </li>
-<li><b className="purple">Tools: </b>VS Code,
-GitHub, Powershell, React.js, Node.js, Capstone, Pygame, Latex, 
+                                  <li><b className="purple">Languages: </b>C, C++, Python, PHP, HTML, CSS, Java, Lua, MySQL, JavaScript, VHDL and scripting in Bash </li>
+                                  <li><b className="purple">Tools: </b>VS Code, GitHub, Powershell, React.js, Node.js, Capstone, Pygame, Latex, 
 Solidworks, Maple, Matplotlib, Microsoft Office(Word, Excel, Outlook, Power Point),  Xilix ISE, Labview</li>
-                                <li><b className="purple">Some concepts:</b>Object Oriented Programming, Complexity, Testing/Debugging, Recursion, Stacks, Queues(and Heap), Linked Lists, Trees, Hashing, Graphs</li><li><b className="purple">Relevant Coursework:</b> Web programming, Object Oriented Programming, Software Project 
-Management, Digital Systems, Data Structures
-</li></ul>
-            </p>
-            <p style={{textAlign: "left",fontSize: "1.2em"}} className="home-about-body">
-            <b className="purple"> Awards: </b>
-              <ul>
+                                 <li><b className="purple">Some concepts:</b>Object Oriented Programming, Complexity, Testing/Debugging, Recursion, Stacks, Queues(and Heap), Linked Lists, Trees, Hashing, Graphs</li><li><b className="purple">Relevant Coursework:</b> Web programming, Object Oriented Programming, Software Project 
+Management, Digital Systems, Data Structures</li><br></br>
+            <b className="purple"><u> Awards: </u></b>
                 <li>President's List Honours (2022-2023)</li>
                 <li>Dean's List Honours (2021-2022)</li>
-              </ul>
+                </ul>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
