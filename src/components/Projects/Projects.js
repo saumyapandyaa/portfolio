@@ -14,6 +14,8 @@ import teach2 from "../../Assets/Projects/teach2.svg";
 import calc from "../../Assets/Projects/calc.png";
 import bitsOfCode from "../../Assets/Projects/sports.jfif";
 import port from "../../Assets/Projects/portfolio.png";
+import robotCar from "../../Assets/Projects/Car.jpg";
+import trafficLight from "../../Assets/Projects/traffic.jpg";
 function Projects() {
   const temp=["pt1","pt2"]
   const temp1=[<b>Tools: C, Graphs Data-Structure.</b>,"Built the back end of a complex social media.","Used Directed and Non-Directed graph algorithms to create the backend","Added features where a user could add friends, remove friends, check mutual friends, follow brands/celebrities etc."];
@@ -28,6 +30,8 @@ function Projects() {
   const temp10=[ "Tutored a first year university student online and helped them go from a 60% to 90% in computer science","Coordinated with them and assisted them with problem solving whenever needed."]
   const temp11=[<b>Tools: Javascript, HTML, CSS</b>, "Built a basic online scientific calculator using objects in JavaScript"]
   const temp12=[<b>Tools: React, Node js, Javascript, CSS, HTML, Bash</b>,"Built a web portfolio using the tools mentioned above","Acquired knowledge about scripting in bash and publishing a website"]
+  const temp13=[<b>Tools: Arduino, C, Breadboard, LED lights, Jumper Wires, Resistors, Transistors</b>,"Built a 4-way traffic signal intersection on a breadboard." , "Connected wires appropriately to Arduino to connect code to the breadboard.","Ensured that the lights worked properly as it would work at a real traffic signal."]
+  const temp14=[<b>Tools: Arduino, C, Jumper Wires, parts of a mini robotic car</b>,"Constructed a mini robotic car from scratch using Arduino","Made sure that the car stopped by and avoided obstacles."]
   return (
     
     <Container fluid className="project-section">
@@ -111,6 +115,26 @@ function Projects() {
               isBlog={false}
               title="Edge detection"
               description={temp5}
+
+              // description=" "
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={robotCar}
+              isBlog={false}
+              title="Mini Robotic Car"
+              description={temp14}
+
+              // description=" "
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trafficLight}
+              isBlog={false}
+              title="Traffic Signal Intersection on Arduino"
+              description={temp13}
 
               // description=" "
             />
