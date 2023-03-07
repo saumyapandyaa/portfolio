@@ -49,28 +49,24 @@ function Projects() {
             <ProjectCard
               imgPath={port}
               isBlog={false}
-              title="Portfolio Website"
+              title=<a className="proj-view" href="https://github.com/saumyapandyaa/portfolio">Portfolio Website</a>
               description={temp12}
-
-              // description=
-              
-             
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={s}
               isBlog={false}
-              title="Graffit social media"
+              title= <a className="proj-view"  href="https://github.com/saumyapandyaa/graffit-social">Graffit social media</a>
               description={temp1}
-            />
+              />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Sports Events Management Website"
+              title=<a className="proj-view"  href="https://github.com/saumyapandyaa/Sports-Events-Management-Website">Sports Events Management Website</a>
               description={temp2}
 
               // description=
@@ -83,7 +79,7 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="MS Logo Turtle on C "
+              title=<a className="proj-view"  href="https://github.com/saumyapandyaa/turtle.git">MS Logo Turtle on C </a>
              
               description={temp3}
             />
@@ -103,7 +99,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Quad"
+              title=<a className="proj-view"  href="https://github.com/saumyapandyaa/quad">Quad</a>
               description={temp4}
               
             
@@ -113,7 +109,7 @@ function Projects() {
             <ProjectCard
               imgPath={edge}
               isBlog={false}
-              title="Edge detection"
+              title=<a className="proj-view"  href="https://github.com/saumyapandyaa/edge-detection">Edge detection</a>
               description={temp5}
 
               // description=" "

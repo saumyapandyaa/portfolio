@@ -512,7 +512,12 @@ button:focus {
   
   
 }
-
+.proj-view{
+  color:rgb(131, 187, 255) !important;
+}
+.proj-view:hover{
+  color: cyan !important;
+}
 .project-card-view {
   box-shadow: 5px 5px 5px 5px rgb(27, 0, 58) !important;
   color:rgb(131, 187, 255) !important;
