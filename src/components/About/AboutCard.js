@@ -2,17 +2,17 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
+<b className="purple" ></b>
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-              My past experiences have  allowed me strengthen my soft skills like problem-solving, communication, team-work, multi-tasking
-                    etc. I have plenty of experience working with technology. Some examples are <b className="purple" >Python, C,
-                    C++, Java, CSS, MySQL, PHP, JavaScript, Node.js, React.js, Microsoft Office Applications, Bash, Powershell.</b>
-                    I am extremely passionate about technology. I have learnt about and worked using a really amazing software management approach like <b className="purple">Agile</b>. I cannot wait to solve more and more realistic problems
-                    and contribute to the tech industry. Apart from coding, I also enjoy
+          <p>Throughout my professional journey, I have honed my soft skills such as problem-solving, communication, teamwork, and multitasking. Moreover, I have gained significant expertise in various technologies, including<b className="purple" > Python, C, C++, Java, CSS, MySQL, PHP, JavaScript, Node.js, React.js, Microsoft Office Applications, Bash, and Powershell. </b></p>
+          <p>My deep passion for technology has been a driving force behind my continuous learning and growth. I have actively familiarized myself with exceptional software management methodologies such as <b className="purple">Agile</b>, which have provided me with a strong foundation for efficient project execution.</p>
+         <p>Eager to tackle increasingly complex challenges, I am enthusiastic about contributing to the ever-evolving tech industry. By leveraging my skills and experiences, I aim to make meaningful contributions, striving to solve real-world problems and drive innovation in the field. Apart from coding, I also enjoy</p>
          
           <ul>
             <li className="about-activity">
@@ -30,7 +30,8 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Socializing
             </li>
-          </ul></p><p style={{textAlign:"left",fontSize:"21.5px"}}>I am  currently in search of a position that combines my software engineering skills with a challenge that offers  professional development, educational opportunities, and personal growth.</p></blockquote>
+          </ul></p>
+          <p style={{textAlign:"left",fontSize:"21.5px"}}>I am  currently in search of a position that combines my software engineering skills with a challenge that offers  professional development, educational opportunities, and personal growth.</p></blockquote>
           </Card.Body>
     
 </Card>  

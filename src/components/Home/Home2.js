@@ -20,14 +20,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p style={{textAlign: "left",fontSize: "1.2em"}} className="home-about-body" >
-              My name is Saumya Pandya. I am a second year Software Engineering student at Ontario Tech University. I can be described as an adaptive,
-                                ambitious, quick-learner, passionate individual with a strong grasp of my <b className="purple"> extraordinary
-                                soft
-                                and technical skills.</b><br></br><br></br>
+              My name is Saumya Pandya. I am a second year<b className="purple"> Software Engineering student</b> at Ontario Tech University. 
+I am an adaptive, ambitious, and passionate individual with exceptional soft and technical skills. As a quick learner, I thrive on acquiring new knowledge and constantly improving my abilities.<br></br><br></br>
                                 <ul>
                                   <b className="purple" ><u>Technical Skills:</u></b>
                                   <li><b className="purple">Languages: </b>C, C++, Python, PHP, HTML, CSS, Java, Lua, MySQL, JavaScript, VHDL and scripting in Bash </li>
-                                  <li><b className="purple">Tools: </b>VS Code, GitHub, Powershell, React.js, Node.js, Capstone, Pygame, Latex, 
+                                  <li><b className="purple">Tools: </b>VS Code, GitHub, Eclipse, Linux,Powershell, React.js, Node.js, Capstone, Pygame, Latex, 
 Solidworks, Maple, Matplotlib, Microsoft Office(Word, Excel, Outlook, Power Point),  Xilix ISE, Labview</li>
                                  <li><b className="purple">Some concepts and/or methodologies:</b> Scrum, Agile, Object Oriented Programming, Complexity, Testing/Debugging, Recursion, Stacks, Queues(and Heap), Linked Lists, Trees, Hashing, Graphs</li><li><b className="purple">Relevant Coursework:</b> Web programming, Object Oriented Programming, Software Project 
 Management, Digital Systems, Data Structures</li><br></br>
