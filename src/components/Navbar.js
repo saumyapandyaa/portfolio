@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { GrContactInfo, } from "react-icons/gr";
 
-import pdf from "../Assets/resume.pdf";
+import pdf from "../Assets/resume-generalSoftware-og.pdf";
 import {
   AiFillStar,
   AiOutlineHome,
