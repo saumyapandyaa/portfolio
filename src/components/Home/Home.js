@@ -9,6 +9,16 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <section>
+      <div
+        style={{
+          width: "20px",
+          height: "20px",
+          overflow: "hidden",
+          margin:0,
+          padding:0,
+          position: "relative",
+        }}
+      ></div>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -25,15 +35,6 @@ function Home() {
 
               <div style={{ paddingTop: 30, textAlign: "left" }}>
                 <Type />
-              </div>
-
-              <div style={{ marginTop: 40 }}>
-                <Link to="/Projects">
-                  <Button variant="primary" className="mx-2">View Projects</Button>
-                </Link>
-                <Link to="/Resume">
-                  <Button variant="secondary" className="mx-2">Resume</Button>
-                </Link>
               </div>
             </Col>
           </Row>

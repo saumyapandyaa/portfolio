@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-      <Container>
+      {/* <Container> */}
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -37,8 +37,8 @@ function Home2() {
             </Tilt>
           </Col>
   
-          <Col md={12} className="home-about-social">
-            {/* <h3>CONNECT WITH ME</h3>
+          {/* <Col md={12} className="home-about-social">
+            {<h3>CONNECT WITH ME</h3>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -61,11 +61,11 @@ function Home2() {
                 </a>
               </li>
             </ul>
-            <br></br> */}
-              {/* Always happy to connect and collaborate! */}
-          </Col>
+            <br></br> }
+              Always happy to connect and collaborate!
+          </Col> */}
         </Row>
-      </Container>
+      {/* </Container> */}
     </Container>
   );
 }
