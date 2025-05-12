@@ -12,7 +12,7 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "left", padding: "10px" }}>
           <Col
             md={7}
             style={{
@@ -22,8 +22,8 @@ function About() {
               
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Little More <strong className="purple">About Me!</strong>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "10px", paddingTop:"50px", color: "#bee3ff" }}>
+              Little More <strong>About Me!</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,14 +35,14 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <h1 className="project-heading" style={{paddingBottom: "10px", paddingTop:"10px", color:"#bee3ff"}}>
+          Slight peek into my <strong style={{color:"black"}}>Skillset </strong>
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+        <h1 className="project-heading" style={{ paddingBottom: "10px", paddingTop:"10px", color:"#bee3ff"}}>
+          Some <strong style={{color: "black"}}>Tools</strong> I use
         </h1>
         <Toolstack />
 

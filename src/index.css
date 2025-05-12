@@ -1,8 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+/* Global background for all pages */
+body {
+  background-color: #f9f9f9; /* Light gray background */
+  font-family: 'Arial', sans-serif; /* Common font */
+  color: #333; /* Default text color */
+}
+
+/* Global button styles */
+button {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  padding: 12px 25px; /* Increase padding for better spacing */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Anchor tag styles */
+a {
+  color: #007bff; /* Blue text for links */
+  text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+
+/* old
+ @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left,rgb(79, 29, 110), rgb(43, 22, 83));
-}
+} */

@@ -1,5 +1,51 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #d1d1d1;
+  margin-top: 10px;
+}
+
+.btn-primary-custom {
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #5a52d1;
+  transform: translateY(-2px);
+}
+
+
+/* old
+.App {
+  text-align: center;
   
 }
 
@@ -36,4 +82,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
