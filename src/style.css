@@ -326,6 +326,7 @@ button:focus {
   padding: 9rem 0 2rem !important;
   text-align: left;
   letter-spacing: 55% !important;
+  
 }
 
 .heading {
@@ -378,12 +379,13 @@ button:focus {
 }
 
 .home-about-section {
+  background: linear-gradient(110deg, #07763d 0%, #abfed3 100%);
   position: left;
   padding-bottom: 10px;
   padding-top: 10px;
   word-spacing: 50%;
   letter-spacing: 55%;
-  background: linear-gradient(110deg, #07763d 0%, #abfed3 100%);
+  /* background: linear-gradient(110deg, #07763d 0%, #abfed3 100%); */
 }
 
 .home-about-description {

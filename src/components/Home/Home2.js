@@ -6,8 +6,13 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
-      {/* <Container> */}
+    // <Container fluid className="home-about-section" id="about">
+    <div
+    style={{
+      overflowY: "auto",
+      // zIndex:"0",
+    }}
+  ><Container fluid className="home-about-section" id="about" style={{ paddingTop: "20px" }}>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -65,8 +70,8 @@ function Home2() {
               Always happy to connect and collaborate!
           </Col> */}
         </Row>
-      {/* </Container> */}
-    </Container>
+      </Container>
+      </div>
   );
 }
 
