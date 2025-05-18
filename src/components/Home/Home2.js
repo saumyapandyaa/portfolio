@@ -6,13 +6,13 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    // <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="about">
     <div
     style={{
       overflowY: "auto",
-      // zIndex:"0",
-    }}
-  ><Container fluid className="home-about-section" id="about" style={{ paddingTop: "20px" }}>
+      zIndex:"2",
+      
+    }}>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -41,37 +41,10 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-  
-          {/* <Col md={12} className="home-about-social">
-            {<h3>CONNECT WITH ME</h3>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/saumyapandyaa"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/saumya-pandya-58435318b/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-            <br></br> }
-              Always happy to connect and collaborate!
-          </Col> */}
         </Row>
+        </div>
       </Container>
-      </div>
+      
   );
 }
 

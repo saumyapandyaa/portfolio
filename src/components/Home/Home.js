@@ -4,29 +4,38 @@ import homeLogo from "../../Assets/homeLogo.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Navbar from "../Navbar.js"
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <section>
        <div
-        style={{
-          width: "50%",
-          height: "50%",
-          position: "relative ",
-          right: "50",
-          zIndex: 1000,
-          display: "block",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+        // style={{
+        //   // zIndex: "1000",
+        //   // display: "block",
+        //   // justifyContent: "center",  
+        //   // alignItems: "center",    
+        //   // height: "100%", 
+        //   // background: "linear-gradient(150deg, #171493 10%, #090f3e 100%)",
+        //   // paddingLeft: "100%", // Add some padding or other styles to the block if necessary
+        //   // paddingRight:"100%",          
+        // }}
+      ></div>
+        <div
+    style={{
+      background: "linear-gradient(150deg, #171493 10%, #090f3e 100%)",
+      // paddingLeft: "100%", // Add some padding or other styles to the block if necessary
+      // paddingRight:"100%",
+    }}
+  >
+    <Navbar></Navbar>
       <Container fluid className="home-section" id="home">
         <Particle />
-        <Container className="home-content" style={{padding:0}}>
+        <Container className="home-content" >
           <Row>
             <Col md={7} className="home-header">
-              <h1 className="heading" style={{ paddingBottom: 15, fontWeight: 500, letterSpacing: "0.5px", fontSize: "8px" }}>
+              <h1 className="heading" style={{fontWeight: 500, letterSpacing: "0.5px", fontSize: "8px" }}>
                 Welcome!
               </h1>
 
@@ -42,10 +51,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      
       </div>
       <Home2 />
-      <div style={{ background: "linear-gradient(110deg, #07763d 0%, #abfed3 100%)" }}></div>
-
     </section>
     
   );

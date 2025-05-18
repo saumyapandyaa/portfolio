@@ -10,9 +10,9 @@ function AboutCard() {
           
           <p style={{ textAlign: "justify" }}>
             I bring a strong foundation in
-            <b className="purple"> problem-solving, communication, teamwork, and multitasking</b>,
+            <b style={{color:"#3d1bc4", fontWeight:"500"}}> problem-solving, communication, teamwork, and multitasking</b>,
             supported by hands-on expertise in technologies including
-            <b className="purple">
+            <b style={{color:"#3d1bc4",fontWeight:"500"}}>
               {" "}
               Python, C, C++, Java, JavaScript, Node.js, React.js, MySQL, PHP, Bash scripting, Perl scripting, TCP/IP networking, and Microsoft Office tools.
             </b>
@@ -20,7 +20,7 @@ function AboutCard() {
 
           <p style={{ textAlign: "justify", marginTop: "15px" }}>
             I am passionate about developing scalable solutions and continuously expanding my technical knowledge. My approach is shaped by modern software methodologies such as 
-            <b className="purple"> Agile</b>, ensuring effective collaboration and delivery in fast-paced environments.
+            <b style={{color:"#3d1bc4",fontWeight:"500"}}> Agile</b>, ensuring effective collaboration and delivery in fast-paced environments.
           </p>
 
           <p style={{ textAlign: "justify", marginTop: "15px" }}>
@@ -32,21 +32,21 @@ function AboutCard() {
           </p>
 
           <ul>
-            <li className="about-activity">
+            <span className="about-activity">
               <ImPointRight /> Playing soccer and volleyball
-            </li>
-            <li className="about-activity">
+            </span><br></br>
+            <span className="about-activity">
               <ImPointRight /> Reading and personal development
-            </li>
-            <li className="about-activity">
+            </span><br></br>
+            <span className="about-activity">
               <ImPointRight /> Traveling and exploring new cultures
-            </li>
-            <li className="about-activity">
+            </span><br></br>
+            <span className="about-activity">
               <ImPointRight /> Dancing
-            </li>
-            <li className="about-activity">
+            </span><br></br>
+            <span className="about-activity">
               <ImPointRight /> Networking and building communities
-            </li>
+            </span><br></br>
           </ul>
 
           <p style={{ textAlign: "left", fontSize: "21.5px", marginTop: "20px" }}>
